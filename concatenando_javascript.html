@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Concatenando strings</title>
+        <script type="text/javascript">
+
+            document.write("<p>");
+
+                var fraseBonita = "Estudar javascript é demais!";
+
+                // Efetua uma concatenação com o métado concat
+                var testeCancat = fraseBonita.concat(" :-)");
+                document.write(testeCancat + "<br/>");
+                // Resultado: Estudar javascript é demais :-)
+
+                // Efetua uma concatenação com  o operador mais (+)
+                var testeMais = fraseBonita + "<br/>";
+                document.write(testeMais + "<br/>");
+                // Resultado: Estudar Javascript é demais! :-D
+
+                // Exibe a frase original.
+                // Note que o conteúdo da variável fraseBonita
+                // Não sofre alterações.
+                // Por este motivo, string são consideradas
+                // imutável em JvaScript
+                document.write("</p>");
+
+        </script>
+    </head>
+</html>

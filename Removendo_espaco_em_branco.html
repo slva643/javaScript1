@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Removendo espaço em branco</title>
+    <script type="text/javascript">
+        document.write("<p>");
+
+            // Expçorando o método trim();
+            // Ele tira os espaços em branco ao redor
+            // da string
+            var stringComEspacos = "   tem espaços   ";
+            document.write("/*" + stringComEspacos  + "*/<br/>");
+            // Resultado: /* Tem espaço*/
+
+            var stringSemEspacos = stringComEspacos.trim();
+            document.write("/*" + stringComEspacos + "*/<br/>")
+            // Resltado: /*Tem espaço*/
+
+        document.write("</p>");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
